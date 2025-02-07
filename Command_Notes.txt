@@ -1,0 +1,8 @@
+Cut-> is used to select sections of text from each line of files.
+Ex:
+1]Get 1 to 5 columns
+cat data.csv | cut -c 1-5
+
+2]Set delimiter and get the first field
+cat data.csv | cut -d ',' -f 1
+
